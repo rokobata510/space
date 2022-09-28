@@ -28,6 +28,5 @@ Egy oldalon lesz az egész project
 | Id | Követelmény | Funkció |
 | :---: | --- | --- |
 | K4 | ... | ... |
-
 ## 11 Fogalomszótár
 xd: xd
