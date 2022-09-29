@@ -2,7 +2,7 @@
 ## 1. Jelenlegi helyzet leírása
 xd
 ## 2. Vágyállomrendszer leírása
-Minden nap egy adatbázisból/ internetról le kér egy képet, amihez látogatók hosszászólásokat tudnak hagyni
+Jól megtervezett, bőségesen dokumentált, funkcionális weboldal, egy reszponzív felületen, robosztus adatbázissal, külömböző biztonsági hibákkal szemben védett, automatikus kép letöltéssel, a jövőben külömböző szociális médiákra történő integrált megosztást támogatva
 ## 3. Jelenlegi üzleti folyamatok modellje
 xd
 ## 4. Igényelt üzleti folyamatok modellje
