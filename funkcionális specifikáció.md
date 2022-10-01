@@ -10,9 +10,9 @@ Amennyiben pár perces kikapcsolódásra lenne szüksége az embernek a szürke 
 teheti meg. Ám oldalunk nagy előnye, hogy sem regisztrációt sem reklámokat nem tartalmaz így egy adott fotóra bárki kényelmesen,
 gyorsan és megkötések nélkül tud reagálni.
 ## 4. Igényelt üzleti folyamatok modellje
-Előreláthatólag nem lesz szükség üzleti folyamatokra
+TODO
 ## 5. Követelménylista
-
+TODO
 | Id | Modul | Név | Leírás |
 | :---: | --- | --- | --- |
 | K1 | ...| ... | ... |
