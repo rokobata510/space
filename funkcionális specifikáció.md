@@ -1,14 +1,18 @@
 # Funkcionális specifikáció
 ## 1. Jelenlegi helyzet leírása
-xd
+Csapatunk úgy gondolta, hogy a mai fiataloknak több szórakozásra van szüksége. Ehhez szeretnénk nekik biztosítnai egy oldalt,
+ahol kultúrált módón, ismerkedhetnek, viccelődhetnek egymással. Ezért szeretnénk egy random, vicces képes weboldalt létrehozni számukra.
 ## 2. Vágyállomrendszer leírása
-Jól megtervezett, bőségesen dokumentált, funkcionális weboldal, egy reszponzív felületen, robosztus adatbázissal, külömböző biztonsági hibákkal szemben védett, automatikus kép letöltéssel, a jövőben külömböző szociális médiákra történő integrált megosztást támogatva
+Jól megtervezett, bőségesen dokumentált, funkcionális weboldal, egy reszponzív felületen, robosztus adatbázissal, külömböző biztonsági hibákkal
+szemben védett, automatikus kép letöltéssel, a jövőben külömböző szociális médiákra történő integrált megosztást támogatva
 ## 3. Jelenlegi üzleti folyamatok modellje
-xd
+Amennyiben pár perces kikapcsolódásra lenne szüksége az embernek a szürke hétköznapokban azt csupán sok reklám és felesleges információ befogadásával
+teheti meg. Ám oldalunk nagy előnye, hogy sem regisztrációt sem reklámokat nem tartalmaz így egy adott fotóra bárki kényelmesen,
+gyorsan és megkötések nélkül tud reagálni.
 ## 4. Igényelt üzleti folyamatok modellje
-Előreláthatólag nem lesz szükség üzleti folyamatokra
+TODO
 ## 5. Követelménylista
-
+TODO
 | Id | Modul | Név | Leírás |
 | :---: | --- | --- | --- |
 | K1 | ...| ... | ... |
