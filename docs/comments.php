@@ -2,7 +2,6 @@
     <div class="detailBox">
         <div class="titleBox">
             <label>Commentek</label>
-            <button type="button" class="close" aria-hidden="true">&times;</button>
         </div>
             <div class="actionBox">
                 <ul class="commentList">
@@ -31,13 +30,18 @@
             ?>
             
                 </ul>
-                <form class="form-inline" role="form">
+                <form class="form-inline" role="form" method="POST" onsubmit="setTimeout(function(){window.location.reload();},10);">
                     <div class="form-group">
-                        <input class="form-control" type="text" placeholder="Username" />
-                        <input class="form-control" type="text" placeholder="Comment" />
+                        <input class="form-control" type="text" placeholder="Username" name="username"/>
+                        <input class="form-control" type="text" placeholder="Comment" name="comment"/>
                         <?php
-                            $sql = "INSERT INTO Comments ()
-                            VALUES ('John', 'Doe', 'john@example.com')";
+                        if(isset($_POST["elkuld"]))
+                        {
+                            $sql = 'INSERT INTO Comments (username, comment, date) VALUES ("'.
+                            $_POST["username"]
+                            .'", "'.
+                            $_POST["comment"]
+                            .'",CAST(now() AS Date ))';
                             if ($conn->query($sql) === TRUE)
                             {
                                 echo "Comment sikeresen hozzáadva";
@@ -46,10 +50,10 @@
                             {
                                 echo "Error: " . $sql . "<br>" . $conn->error;
                             }
-                            
+                        } 
                             $conn->close();                            
                         ?>
-                        <button class="btn btn-default">Comment</button>
+                        <input type="submit" name="elkuld">
                     
                     </div>
                     
