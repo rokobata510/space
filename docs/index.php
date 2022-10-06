@@ -22,34 +22,6 @@
             </div>
             <div class="col">
             <div class="detailBox">
-    <div class="titleBox">
-        <label>Commentek</label>
-        <button type="button" class="close" aria-hidden="true">&times;</button>
-    </div>
-    <div class="actionBox">
-        <ul class="commentList">
-            <li>
-                <div class="commenterImage">
-                    <img src="http://placekitten.com/50/50"/>
-                </div>
-                <div class="commentText align-text-bottom">
-                    <b>Username</b>
-                    <p class="">Hello this is a test comment.</p> 
-                </div>
-            </li>
-            
-        </ul>
-        <form class="form-inline" role="form">
-            <div class="form-group">
-                <input class="form-control" type="text" placeholder="Your comments" />
-            </div>
-            <div class="form-group">
-                <button class="btn btn-default">Add</button>
-            </div>
-        </form>
-    </div>
-</div>
-            </div>
-        </div>
+    <?php include "comments.php"?>
         </body>
 </html>
