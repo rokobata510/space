@@ -12,8 +12,8 @@ Tesztelő: Szilágyi Debóra
 
 Tesztelés dátuma: 2022.október.12.
 
-| Tesztszám | Rövid leírás                     | Várt eredmény                                             | Eredmény                        | Megjegyzés                |
-|-----------|----------------------------------|-----------------------------------------------------------|-------------------------------------------------------------|---------------------------|
-| Teszt #01 | Hozzászólás írása                | Hozzászólás megjelenik a hozzásólások között.             | A művelet végrehajtódott.       | Nem találtam hibát.  |
-| Teszt #02 | Túl hosszú hozzászólás megadása  | Hozzászólás lekorlátozása 300 karakterig.                 | Lekorlátozódik.                 | Nem jelentkezett hiba. |
-| Teszt #XX | ... | ... | ... | ... |   
+| Tesztszám | Rövid leírás                     | Várt eredmény                                         | Eredmény                              | Megjegyzés                   |
+|-----------|----------------------------------|-------------------------------------------------------|---------------------- ----------------|------------------------------|
+| Teszt #01 | Hozzászólás írása                | Hozzászólás megjelenik a hozzásólások között.         | A művelet végrehajtódott.             | Nem találtam hibát.          |
+| Teszt #02 | Túl hosszú hozzászólás megadása  | Hozzászólás lekorlátozása 300 karakterig.             | A korlátozott mennyiségű szöveg jelenik meg.| Nem jelentkezett hiba. |
+| Teszt #03 | Username beállítása              | Megjelenik az username hozzászólásnál.                | Az username megjelenik                | Sikeresen lefutott.          |   
