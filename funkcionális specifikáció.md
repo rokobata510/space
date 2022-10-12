@@ -33,10 +33,13 @@ ___
      
 ## 5. Követelménylista
 
-     - Létrehozásához HTML, CSS és PHP-t használunk. A kinézet és az oldal vázát a CSS és
-          HTML kódok adják míg a funkciók a PHP kódok segítségével fognak működni. Továbbá adatbázist és
-          Bootstrap  is alkalmazunk az oldalon.
-     - A felhasználónak csupán egy webböngészőre van szüksége az oldal megtekintéshez.
+| Id | Modul | Név | Leírás |    |
+| :---: | --- | --- | --- | --- |
+| K1 | Felület | Főoldal | A felhasználó itt tud hozzászólást írni. | |
+| K2 | Felület | Főoldal | Itt jelenik meg a napi kép. |                                         |
+| K3 | Adatbázis | Adat tárolás | A hozzászólások szövege itt tárolódik a képpel együtt. |       |
+| K4 | Kód  | HTML                |  CSS                         |  PHP                          |
+|    |     | az oldal vázát adja | az oldal kinézetéért felelős | a funkciók műkodéséért felel  |
 
 ## 6. Használati esetek
     A felhasználók az oldalon a minden nap frissülő képekre tudnak reagálni.
