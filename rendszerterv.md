@@ -2,10 +2,10 @@
 ---
 ## 1. A rendszer célja
         A rendszer célja, hogy az oldalra ellátogató felhasználóknak lehetőséget
-    adjunk egy egységes napi képre való véleményadássta és kommunikációs kapcsolatok
+    adjunk egy egységes napi képre való véleményadásra és kommunikációs kapcsolatok
     kialakítására a saját gondolatmenet leírásának opciójával. A képeket
     különféle kutatási és filozófiai mélységgel kerestük meg, hogy a megtekintői
-    számára tökéletes élményt nyúltson. A felület egyszerűségében rejti a szépségét
+    számára tökéletes élményt nyújtson. A felület egyszerűségében rejti a szépségét
     és varázsát. Egyszerre tükröz eleganciát és humort. Stílusával görbe tükröt
     mutat saját magának valamint a világnak.
     
@@ -86,7 +86,7 @@
     és használható. Nem igényel szoftvertelepítést és internet kapcsolatot sem.
     Bár böngészőnek kell lennie a felhasználó eszközén ez lehet
     egy alap böngésző pl.: Internet Explorer is. az a döntés, hogy
-    miben nytja meg az oldalt a felhasználó az teljesen rá van bízva.
+    miben nyitja meg az oldalt a felhasználó az teljesen rá van bízva.
 
    ### 3.2 Üzleti folyamatok
         Az oldal megnyitása után rögtön elérhetővé válik a hozzászólás
@@ -97,8 +97,8 @@
     
     
 ## 4. Követelmények
-    Létrejöttéhet csapatunk HTML, CSS és PHP-t használt. A kinézetet és az oldal
-    vázát a CSS és HTML kódok adjták melyre sok figyelmet szenterltünk
+    Létrejöttéhez csapatunk HTML, CSS és PHP-t használt. A kinézetet és az oldal
+    vázát a CSS és HTML kódok adjták melyre sok figyelmet szenteltünk
     míg a funkciók múködésében a PHP kódok nyújtottak segítséget. Továbbá
     adatbázisban tároljuk a fotókat és kommenteket. Ám a Bootstrap alkalmazását
     sem felejtjük el. Fontos követelményünk volt továbbá, hogy a felhasználónak
