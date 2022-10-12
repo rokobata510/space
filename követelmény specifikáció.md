@@ -32,7 +32,8 @@
     és megkötések nélkül tudjon reagálni.
   
 ## 5. Igényelt üzleti folyamatok modellje
-    Projektünk nem igényel különösebb üzleti folyamatokat.
+    ![image](https://user-images.githubusercontent.com/103049657/195432784-a7dc71ff-e8a4-43f0-90f0-ecec890211aa.png)
+
   
 ## 6. Követelménylista
     Létrehozásához HTML, CSS és PHP-t használunk. A kinézet és az oldal
