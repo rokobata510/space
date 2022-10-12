@@ -28,12 +28,9 @@ ___
     és megkötések nélkül tudjon reagálni.
 
 ## 4. Igényelt üzleti folyamatok modellje
-    Az emberek gyors és vicces kikapcsolódása a célunk. Gyors,
-    mert internet és okos eszköz fejében bárhol és bármikor elérhető. Vicces,
-    mert a napi kép mindenképp humoros témában lesz.
-    
-    
 
+![Untitled Diagram](https://github.com/rokobata510/space/blob/main/pics/Untitled%20Diagram.jpg?raw=true)
+     
 ## 5. Követelménylista
 
      - Létrehozásához HTML, CSS és PHP-t használunk. A kinézet és az oldal vázát a CSS és
