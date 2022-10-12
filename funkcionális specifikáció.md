@@ -42,7 +42,10 @@ ___
 |    |     | az oldal vázát adja | az oldal kinézetéért felelős | a funkciók műkodéséért felel  |
 
 ## 6. Használati esetek
-    A felhasználók az oldalon a minden nap frissülő képekre tudnak reagálni.
+    - az oldalra látogatók 
+    
+    
+    
 
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
     A felhasználóknak lehetőségük adódik a napi kép alá kommentelni, amit az adatbázis tárol,
@@ -53,7 +56,8 @@ ___
     Terveink szerint az oldalon látható lesz a vicces kép igényes keretek között és egy
     komment sor ahol az az napi képre tudnak a felhasználók reagálni.
 
-    https://www.figma.com/file/GClqbRRLOF1bgV5I41FAJa/test?node-id=0%3A1
+   ![kép](https://user-images.githubusercontent.com/114166697/195412573-3f7f6ba4-c623-4824-829d-97e6ee23b59b.png)
+
 
 ## 9. Forgatókönyvek
     - Az oldal megnyitása során egyből a kép és a komment sor fogadja a felhasználót. 
