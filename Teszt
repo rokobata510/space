@@ -1,28 +1,29 @@
- | Program futás               | Egyelőre nincs               | 
+ | Teszteset                   | Elvárt eredmény             |
+ |-----------------------------|-----------------------------|
  
- | Hozzászólás                 | Sikeres hozzászólás feltöltés  | 
+ | Program futás               | Sikeres betöltés.           | 
  
- | Username megadás            | Sikeresen megadható          | 
+ | Hozzászólás                 | Sikeres hozzászólás feltöltés. | 
  
- | Kép megjelenítés            | Fejlesztés alatt             |
+ | Username megadás            | Sikeresen megadható.        | 
+ 
+ | Kép megjelenítés            | Sikeres betöltés.           |
 
- | Rágalmazó szöveg tiltása    | Fejlesztés alatt             |
- 
  | Nem megfelelő formátumú szöveg tiltása | Például kép formátumot nem lehet kommentbe helyezni  |
 
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-Tesztelő: Szilágyi Debóra
+  Tesztelő: Szilágyi Debóra
 
-Tesztelés dátuma: 2022.október.12.
+  Tesztelés dátuma: 2022.október.12.
 
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 | Tesztszám | Rövid leírás                     | Várt eredmény                                         | Eredmény                              | Megjegyzés                   |
 |-----------|----------------------------------|-------------------------------------------------------|---------------------------------------|------------------------------|
-| Teszt #01 | Oldal sikeres betöltése          | Sikeres betöltés.                                     | Sikeres betöltés                      | Nincs fennakadás.            |
-| Teszt #02 | Hozzászólás írása                | Hozzászólás megjelenik a hozzásólások között.         | A művelet végrehajtódott.             | Nem találtam hibát.          |
-| Teszt #03 | Túl hosszú hozzászólás megadása  | Hozzászólás lekorlátozása 300 karakterig.             | A korlátozott mennyiségű szöveg jelenik meg.| Nem jelentkezett hiba. |
-| Teszt #04 | Username beállítása              | Megjelenik az username hozzászólásnál.                | Az username megjelenik.               | Sikeresen lefutott.          | 
-| Teszt #05 | Kép sikeres megjelenítése        | Megjeleníti az aznapi képet.                          | MÉG NINCS                             | MÉG NINCS                    |
-| Teszt #06 | Kép fájl hozzászólásként         | Nem szabad engednie ilyen formátumot.                 | Nem engedélyezi.                      | Helyesen működik.            |
+| Teszt #01 | Oldal sikeres betöltése.         | Sikeres betöltés.                                     | Sikeres betöltés.                     | Nincs fennakadás.            |
+| Teszt #02 | Hozzászólás írása.               | Hozzászólás megjelenik a hozzásólások között.         | A művelet végrehajtódott.             | Nem találtam hibát.          |
+| Teszt #03 | Túl hosszú hozzászólás megadása. | Hozzászólás lekorlátozása 300 karakterig.             | A korlátozott mennyiségű szöveg jelenik meg.| Nem jelentkezett hiba. |
+| Teszt #04 | Username beállítása.             | Megjelenik az username hozzászólásnál.                | Az username megjelenik.               | Sikeresen lefutott.          | 
+| Teszt #05 | Kép sikeres megjelenítése.       | Megjeleníti az aznapi képet.                          | Sikeresen betölt.                     | Sikeresen betölt             |
+| Teszt #06 | Kép fájl hozzászólásként.        | Nem szabad engednie ilyen formátumot.                 | Nem engedélyezi.                      | Helyesen működik.            |
