@@ -18,6 +18,7 @@ ____
     hogy nem tartalmaz felesleges figyelem elterelő média tartalmat -ellenben a legtöbb oldallal-
     így egyből a lényegre tudunk összpontosítani fölösleges és bonyolult menü sorok nélkül.
   
+  
 ## 3. Vágyálomrendszer
        Csapatunk egy olyan program írására határozta el magát, amely egy jól megtervezett,
     bőségesen dokumentált, funkcionális weboldal, egy reszponzív felületen,
@@ -25,6 +26,7 @@ ____
     kép letöltéssel, a jövőben különböző szociális médiákra történő integrált
     megosztást támogatva. Az oldalon napi frissítéssel egy kép lesz látható így
     ösztönözve a felhasználót arra, hogy napi rendszerességgel visszatérjen.
+
 
 ## 4. Jelenlegi üzleti folyamatok modellje
         A mai világban mindenhol hirdetésekbe botlunk, amennyiben ingyen szeretnénk
@@ -35,6 +37,7 @@ ____
     hogy megtekintése bárki az oldalt így még letisztultabb és lényegre törőbb
     az oldal célja, hogy egy adott fotóra bárki kényelmesen, gyorsan
     és megkötések nélkül tudjon reagálni.
+  
   
 ## 5. Igényelt üzleti folyamatok modellje
     
@@ -50,6 +53,7 @@ ____
 | K4 | Kód  | HTML                |  CSS                         |  PHP                          |
 |    |     | az oldal vázát adja | az oldal kinézetéért felelős | a funkciók működéséért felel  |
 
+
 ## 7. Fogalomtár
     - WEBOLDAL:  jelen helyzetben egy felület melyen kommunikációra
                  van lehetőség egy kép kapcsán.
@@ -61,3 +65,5 @@ ____
     - BACK_END:  a programoknak, weboldalaknak a hátsó, a felhasználó elől rejtett,
                  a tényleges számításokat végző része. Feladata a front‑end felől érkező adatok feldolgozása,
                  és az eredményeknek a front‑end felé történő visszajuttatása.
+
+
