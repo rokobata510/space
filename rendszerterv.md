@@ -83,53 +83,45 @@
     
    ### 3.1 Üzleti szereplők
         Az oldal bármely böngészőn keresztül regisztráció nélkül megtekinthető
-    é
-A rendszer regisztrálás nélkül használható. Akármelyik felhasználó, akinek
-az eszközén megtalálható a szoftver mindenféle korlátozás nélkül használhatja.
-Annak eldöntése, hogy a szoftvert kinek az eszközére települ és ki használhatja
-azt a megrendelő vállalat döntésére van bízva.
+    és használható. Nem igényel szoftvertelepítést és internet kapcsolatot sem.
+    Bár böngészőnek kell lennie a felhasználó eszközén ez lehet
+    egy alap böngésző pl.: Internet Explorer is. az a döntés, hogy
+    miben nytja meg az oldalt a felhasználó az teljesen rá van bízva.
 
-### 3.2 Üzleti folyamatok
-
-A felhasználó a szoftver elindítása után kedve használhatja a titkosítást és visszafejtést,
-kiválaszthatja, hogy ha szövegből szeretne olvasni vagy írni,
-valamint a szoftver korlátozásain belül testre szabhatja a beállításokat is.
-A beállításokon belül kiválaszthatja a használni kívánt titkosítást és annak
-bonyolultságát is.
-
-* **Fájl kiválasztása:** A felhasználó ezen menüpont segítségével kiválaszthatja
-a beolvasni kívánt fájlt.
-* **Művelet indítása:** Ezen funkció használatával titkosításkor a szoftver elvégzi a titkosítást
-és az felhasználó által kívánt módon vagy a szövegdobozban, vagy pedig külön fájlban
-megjeleníti azt.
-* **Beállítások:** A funkción keresztül elérheti a felhasználó
-a szoftver beállításait.
+   ### 3.2 Üzleti folyamatok
+        Az oldal megnyitása után rögtön elérhetővé válik a hozzászólás
+    írás lehetősége valamint a kép is azonnal láthatóvá válik. Nincsenek 
+    korlátozások az oldalon vélemény nyílvánítás téren (még) és beálítás
+    menüre sincs szügsége a felhasználónak így is megkönnyítve az oldal
+    kezelését.
     
     
 ## 4. Követelmények
-    Létrehozásához HTML, CSS és PHP-t használunk. A kinézet és az oldal
-    vázát a CSS és HTML kódok adják míg a funkciók a PHP kódok segítségével fognak működni.
-    Továbbá adatbázist és Bootstrap is alkalmazunk az oldalon.
-
-    A felhasználónak csupán egy webböngészőre van szüksége az oldal megtekintéshez.
+    Létrejöttéhet csapatunk HTML, CSS és PHP-t használt. A kinézetet és az oldal
+    vázát a CSS és HTML kódok adjták melyre sok figyelmet szenterltünk
+    míg a funkciók múködésében a PHP kódok nyújtottak segítséget. Továbbá
+    adatbázisban tároljuk a fotókat és kommenteket. Ám a Bootstrap alkalmazását
+    sem felejtjük el. Fontos követelményünk volt továbbá, hogy a felhasználónak
+    csupán egy webböngészőre legyen szüksége az oldal használatáshoz.
 
 ### Funkcionális követelmények
 | ID | Megnevezés | Leírás |
 | --- | --- | --- |
-| K1 | Komment | Kommentek írása |
-| K2 | Kép | Kép láthatósága|
-| K3 | Backend | Gyors betöltés, hibamentes működés |
+| K1 | Komment | Kommentek írásának lehetősége megszabott karakterszám betartásával |
+| K2 | Kép | Kép láthatósága és minőségi kinézete az elvárt keretek között. |
+| K3 | Backend | Gyors betöltés, hibamentes működés, szép kódolás |
 
 ### Nemfunkcionális követelmények
 | ID | Megnevezés | Leírás |
 | --- | --- | --- |
-| K1 | Frontend | Letisztult és igényes külső |
+| K1 | Frontend | Letisztult és igényes külső amely könnye átlátható mégis illik az oldal egyedi tematikájába. |
 
 ### Támogatott eszközök:
     web böngészők pl.: Chrome, Firefox, Opera [...]
     Megtekinthető okos telefonokon; tableteken; laptopokon [...] bármin amin
-    fut egy böngésző és van internet elérése.
-
+        fut egy böngésző és van internet elérése.
+    
+    
 ## 5. Funkcionális terv
     A felhasználók, mint rendszerszereplők az oldalon
     főleg a hozzászólásokra reagálnak.
