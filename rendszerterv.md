@@ -1,14 +1,23 @@
 # Rendszerterv
 ---
 ## 1. A rendszer célja
-    A rendszer célja, hogy az oldalon minden nap új kép legyen látható
-    melyre a felhasználók minden nap tudjanak reagálni.
-
+        A rendszer célja, hogy az oldalra ellátogató felhasználóknak lehetőséget
+    adjunk egy egységes napi képre való véleményadásra és kommunikációs kapcsolatok
+    kialakítására a saját gondolatmenet leírásának opciójával. A képeket
+    különféle kutatási és filozófiai mélységgel kerestük meg, hogy a megtekintői
+    számára tökéletes élményt nyújtson. A felület egyszerűségében rejti a szépségét
+    és varázsát. Egyszerre tükröz eleganciát és humort. Stílusával görbe tükröt
+    mutat saját magának valamint a világnak.
+    
+    
 ## 2. Projektterv
-    A projekt során egyaránt figyelünk a frontend és a backend igényes kialakítására.
-    A feladatokat elosztottuk egymást között, de segítünk a másiknak és a
-    végeredményt együtt leellenőrizzük. Fejlesztésre HTML-t, CSS-t és PHP-t használunk és
-    folyamatosan dokumentálunk mindent. 
+        A projekt során egyaránt figyelünk a frontend és a backend igényes felhasználóbarát
+    kialakítására. A feladatokat elosztottuk egymást között, de mindenki részt
+    vett bizonyos szinten minden fejlesztési szakaszban valamint segítünk a másiknak és a
+    végeredményt együtt leellenőrizzük. Fejlesztésre HTML-t, CSS-t és PHP-t használunk a
+    kódolásra. A Frontend megtervezésére külső designer program segítségét
+    vettük igénybe. A folyamatokat végig folyamatosan dokumentálunk amely könnyítette
+    a csapatmunkát és az együtt való összegolgozást. 
 
     Frontend:
     - célja: a szép letisztult és felhasználó barát felület létrehozása
@@ -19,21 +28,35 @@
     Tesztelés:
     - célja: az apró hibák észrevétele és jelentése a backend/frontend fejlesztők felé
     
-## Projektszerepkörök, felelőségek:
-    Scrum masters: Takács Róbert
-    Product owner: Takács Róbert
-    Üzleti szereplő: Takács Róbert
+    
+### 2.1 Projektszerepkörök, felelőségek:
+    Scrum masters:
+        Takács Róbert
+    Product owner:
+        Takács Róbert
+    Üzleti szereplő:
+        Takács Róbert
      
-## Projektmunkások és felelőségek:
-    Frontend: Rokob Attila Adrián
-    Backend: Petrovics Tímea
-    Tesztelés: Szilágyi Debóra
      
-## Ütemterv:
-
+### 2.2 Projektmunkások és felelőségek:
+    Frontend:
+        elsődleges: Petrovics Tímea
+        másodlagos: Rokob Attila Adrián
+        harmadlagos:Szilágyi Debóra
+    Backend:
+        elsődleges: Rokob Attila Adrián
+        másodlagos: Szilágyi Debóra
+        harmadlagos:Petrovics Tímea
+    Tesztelés:
+        elsődleges: Szilágyi Debóra
+        másodlagos: Petrovics Tímea
+        harmadlagos:Rokob Attila Adrián
+     
+     
+### 2.3 Ütemterv:
 |Funkció                  | Feladat                                | Prioritás | Becslés (nap) | Aktuális becslés (nap) | Eltelt idő (nap) | Becsült idő (nap) |
 |-------------------------|----------------------------------------|-----------|---------------|------------------------|------------------|---------------------|
-|Követelmény specifikáció |Megírás                                 |         2 |             2 |                      2 |                2 |                   2 |             
+|Követelmény specifikáció |Megírás                                 |         1 |             1 |                      1 |                1 |                   2 |             
 |Funkcionális specifikáció|Megírás                                 |         1 |             1 |                      1 |                1 |                   1 |
 |Rendszerterv             |Megírás                                 |         1 |             1 |                      1 |                1 |                   1 |
 |Program                  |Képernyőtervek elkészítése              |         3 |             3 |                      3 |                3 |                   3 |
@@ -41,39 +64,64 @@
 |Program                  |Alapfunkciók elkészítése                |         3 |             8 |                      8 |                7 |                   7 |
 |Program                  |Tesztelés                               |         4 |             2 |                      3 |                3 |                   2 |
 
+
 ### 2.4 Mérföldkövek:
+    09. 27. megszületett az oldal célja
     09.29. elkészült a frontend vázlata
     10.06. befejeztük a dokumentációkat
     10.01. az első működő vázlat elkészülte
+    10.02. elkezdtük a kulalak kidolgozását
+    10.07. végső tesztelések megkezdése
+    10.10. utolsó javítások a dokumentációban 
+    10.12. végleges változat elkészülte
+    
 
 ## 3. Üzleti folyamatok modellje
-    Az emberek gyors és vicces kikapcsolódása a célunk. Gyors,
+        Az emberek gyors és vicces kikapcsolódása a célunk. Gyors,
     mert internet és okos eszköz fejében bárhol és bármikor elérhető. 
     Vicces, mert a napi kép mindenképp humoros témában lesz.
-## 4. Követelmények
-    Létrehozásához HTML, CSS és PHP-t használunk. A kinézet és az oldal
-    vázát a CSS és HTML kódok adják míg a funkciók a PHP kódok segítségével fognak működni.
-    Továbbá adatbázist és Bootstrap is alkalmazunk az oldalon.
+    
+   ### 3.1 Üzleti szereplők
+        Az oldal bármely böngészőn keresztül regisztráció nélkül megtekinthető
+    és használható. Nem igényel szoftvertelepítést és internet kapcsolatot sem.
+    Bár böngészőnek kell lennie a felhasználó eszközén ez lehet
+    egy alap böngésző pl.: Internet Explorer is. az a döntés, hogy
+    miben nyitja meg az oldalt a felhasználó az teljesen rá van bízva.
 
-    A felhasználónak csupán egy webböngészőre van szüksége az oldal megtekintéshez.
+   ### 3.2 Üzleti folyamatok
+        Az oldal megnyitása után rögtön elérhetővé válik a hozzászólás
+    írás lehetősége valamint a kép is azonnal láthatóvá válik. Nincsenek 
+    korlátozások az oldalon vélemény nyílvánítás téren (még) és beálítás
+    menüre sincs szügsége a felhasználónak így is megkönnyítve az oldal
+    kezelését.
+    
+    
+## 4. Követelmények
+    Létrejöttéhez csapatunk HTML, CSS és PHP-t használt. A kinézetet és az oldal
+    vázát a CSS és HTML kódok adjták melyre sok figyelmet szenteltünk
+    míg a funkciók múködésében a PHP kódok nyújtottak segítséget. Továbbá
+    adatbázisban tároljuk a fotókat és kommenteket. Ám a Bootstrap alkalmazását
+    sem felejtjük el. Fontos követelményünk volt továbbá, hogy a felhasználónak
+    csupán egy webböngészőre legyen szüksége az oldal használatáshoz.
 
 ### Funkcionális követelmények
 | ID | Megnevezés | Leírás |
 | --- | --- | --- |
-| K1 | Komment | Kommentek írása |
-| K2 | Kép | Kép láthatósága|
-| K3 | Backend | Gyors betöltés, hibamentes működés |
+| K1 | Komment | Kommentek írásának lehetősége megszabott karakterszám betartásával |
+| K2 | Kép | Kép láthatósága és minőségi kinézete az elvárt keretek között. |
+| K3 | Backend | Gyors betöltés, hibamentes működés, szép kódolás |
 
 ### Nemfunkcionális követelmények
 | ID | Megnevezés | Leírás |
 | --- | --- | --- |
-| K1 | Frontend | Letisztult és igényes külső |
+| K1 | Frontend | Letisztult és igényes külső amely könnye átlátható mégis illik az oldal egyedi tematikájába. |
 
 ### Támogatott eszközök:
     web böngészők pl.: Chrome, Firefox, Opera [...]
     Megtekinthető okos telefonokon; tableteken; laptopokon [...] bármin amin
-    fut egy böngésző és van internet elérése.
-
+        fut egy böngésző és van internet elérése.
+    
+    
 ## 5. Funkcionális terv
     A felhasználók, mint rendszerszereplők az oldalon
     főleg a hozzászólásokra reagálnak.
