@@ -1,14 +1,22 @@
 # Rendszerterv
 ---
 ## 1. A rendszer célja
-    A rendszer célja, hogy az oldalon minden nap új kép legyen látható
-    melyre a felhasználók minden nap tudjanak reagálni.
-
+    A rendszer célja, hogy az oldalra ellátogató felhasználóknak lehetőséget
+    adjunk egy egységes napi képre való véleményadássta és kommunikációs kapcsolatok
+    kialakítására a saját gondolatmenet leírásának opciójával. A képeket
+    különféle kutatási és filozófiai mélységgel kerestük meg, hogy a megtekintői
+    számára tökéletes élményt nyúltson. A felület egyszerűségében rejti a szépségét
+    és varázsát. Egyszerre tükröz eleganciát és humort. Stílusával görbe tükröt
+    mutat saját magának valamint a világnak.
+    
 ## 2. Projektterv
-    A projekt során egyaránt figyelünk a frontend és a backend igényes kialakítására.
-    A feladatokat elosztottuk egymást között, de segítünk a másiknak és a
-    végeredményt együtt leellenőrizzük. Fejlesztésre HTML-t, CSS-t és PHP-t használunk és
-    folyamatosan dokumentálunk mindent. 
+    A projekt során egyaránt figyelünk a frontend és a backend igényes felhasználóbarát
+    kialakítására. A feladatokat elosztottuk egymást között, de mindenki részt
+    vett bizonyos szinten minden fejlesztési szakaszban valamint segítünk a másiknak és a
+    végeredményt együtt leellenőrizzük. Fejlesztésre HTML-t, CSS-t és PHP-t használunk a
+    kódolásra. A Frontend megtervezésére külső designer program segítségét
+    vettük igénybe. A folyamatokat végig folyamatosan dokumentálunk amely könnyítette
+    a csapatmunkát és az együtt való összegolgozást. 
 
     Frontend:
     - célja: a szép letisztult és felhasználó barát felület létrehozása
@@ -20,14 +28,26 @@
     - célja: az apró hibák észrevétele és jelentése a backend/frontend fejlesztők felé
     
 ## Projektszerepkörök, felelőségek:
-    Scrum masters: Takács Róbert
-    Product owner: Takács Róbert
-    Üzleti szereplő: Takács Róbert
+    Scrum masters:
+        Takács Róbert
+    Product owner:
+        Takács Róbert
+    Üzleti szereplő:
+        Takács Róbert
      
 ## Projektmunkások és felelőségek:
-    Frontend: Rokob Attila Adrián
-    Backend: Petrovics Tímea
-    Tesztelés: Szilágyi Debóra
+    Frontend:
+        elsődleges: Petrovics Tímea
+        másodlagos: Rokob Attila Adrián
+        harmadlagos:Szilágyi Debóra
+    Backend:
+        elsődleges: Rokob Attila Adrián
+        másodlagos: Szilágyi Debóra
+        harmadlagos:Petrovics Tímea
+    Tesztelés:
+        elsődleges: Szilágyi Debóra
+        másodlagos: Petrovics Tímea
+        harmadlagos:Rokob Attila Adrián
      
 ## Ütemterv:
 
