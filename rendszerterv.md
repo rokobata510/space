@@ -81,12 +81,14 @@
     mert internet és okos eszköz fejében bárhol és bármikor elérhető. 
     Vicces, mert a napi kép mindenképp humoros témában lesz.
     
+    
    ### 3.1 Üzleti szereplők
         Az oldal bármely böngészőn keresztül regisztráció nélkül megtekinthető
     és használható. Nem igényel szoftvertelepítést és internet kapcsolatot sem.
     Bár böngészőnek kell lennie a felhasználó eszközén ez lehet
     egy alap böngésző pl.: Internet Explorer is. az a döntés, hogy
     miben nyitja meg az oldalt a felhasználó az teljesen rá van bízva.
+
 
    ### 3.2 Üzleti folyamatok
         Az oldal megnyitása után rögtön elérhetővé válik a hozzászólás
@@ -104,6 +106,7 @@
     sem felejtjük el. Fontos követelményünk volt továbbá, hogy a felhasználónak
     csupán egy webböngészőre legyen szüksége az oldal használatáshoz.
 
+
 ### Funkcionális követelmények
 | ID | Megnevezés | Leírás |
 | --- | --- | --- |
@@ -111,10 +114,12 @@
 | K2 | Kép | Kép láthatósága és minőségi kinézete az elvárt keretek között. |
 | K3 | Backend | Gyors betöltés, hibamentes működés, szép kódolás |
 
+
 ### Nemfunkcionális követelmények
 | ID | Megnevezés | Leírás |
 | --- | --- | --- |
 | K1 | Frontend | Letisztult és igényes külső amely könnye átlátható mégis illik az oldal egyedi tematikájába. |
+
 
 ### Támogatott eszközök:
     web böngészők pl.: Chrome, Firefox, Opera [...]
@@ -126,27 +131,34 @@
     A felhasználók, mint rendszerszereplők az oldalon
     főleg a hozzászólásokra reagálnak.
 
+
 ## 6. Fizikai környezet
     Az oldal bármely böngészőben könnyedén futtatható. Csupán
     internet elérésre és egy okos eszközre van szüksége a felhasználónak
     amely lehet telefon, számítógép vagy tablet is.
+    
+    
 ### Fejlesztő eszközök:
     - figma
     - trello
     - github
     - visual studio code
 
+
 ## 8. Architekturális terv
     Futtatásához egy okos eszközre melyben fut a böngésző és internetre van szükségünk.
+
 
 ## 9. Adatbázis terv
     Egy adatbázist használunk az oldalon amely a kép és a hozzászólások
     táblát tartalmazza. Az adatok eltárolása végett.
 
+
 ## 10. Implementációs terv
     - Egy PHP alapú
     - mysql segítségével adatokat tároló oldal
     - HTML/CSS vázú
+
 
 ## 11. Tesztterv
 ### Tesztesetek
@@ -156,12 +168,16 @@
  | Kép megjelenés | A kép látható és nem torz |
  | Frontend | A vizuális megjelenés szépen megtekinthető minden eszközön |
 
+
 ### A tesztelési stratégia
     Csapatunk folyamatosan tesztel a fejlesztés során, hogy egy
     apró hiba se hagyja el figyelmünket és tökéletes munkát adjunk
     ki a kezünkből melyre büszkék lehetünk.
+    
+    
 ## 12. Telepítési terv
     A megtekintése nem igényel telepítést. Böngészőből futtatható.
+
 
 ## 13. Karbantartási terv
     - folyamatos hibajavítás
