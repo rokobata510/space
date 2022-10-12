@@ -22,9 +22,14 @@
     ösztönözve a felhasználót arra, hogy napi rendszerességgel visszatérjen.s
 
 ## 4. Jelenlegi üzleti folyamatok modellje
-    Az emberek gyors és vicces kikapcsolódása a célunk. Gyors,
-    mert internet és okos eszköz fejében bárhol és bármikor elérhető.
-    Szórakoztató, mert a napi kép mindenképp humoros témában lesz.
+    A mai világban mindenhol hirdetésekbe botlunk, amennyiben ingyen szeretnénk
+    böngészni az interneten. Ez sok felesleges külső lényegtelen ingerhatással valamint
+    információval jár. Célunk, hogy amennyiben csupán pár perces kikapcsolódásra
+    lenne szükségünk azt a sok hirdetés és felesleges tájékoztatás befogadása nélkül
+    tegye meg az felünkre ellátogató felhasználó. Mivel nem igényel regisztrációt,
+    hogy megtekintése bárki az oldalt így még letisztultabb és lényegre törőbb
+    az oldal célja, hogy egy adott fotóra bárki kényelmesen, gyorsan
+    és megkötések nélkül tudjon reagálni.
   
 ## 5. Igényelt üzleti folyamatok modellje
     Projektünk nem igényel különösebb üzleti folyamatokat.
