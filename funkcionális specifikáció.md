@@ -64,9 +64,17 @@ ___
 ## 8. Képernyőtervek
     Terveink szerint az oldalon látható lesz a kép igényes keretek között és egy
     megnyilvánulások sor ahol a napi képre tudnak a felhasználók reagálni.
-    
-    Kinézet terv:
+   __________
+   Végleges kinézet terv:
+   
    ![kép](https://user-images.githubusercontent.com/114166697/195412573-3f7f6ba4-c623-4824-829d-97e6ee23b59b.png)
+   
+   
+   __________
+   Idéglenes kinézet terv:
+   
+  ![284927246_873243980751058_2161368785832703537_n](https://github.com/rokobata510/space/blob/main/pics/284927246_873243980751058_2161368785832703537_n.png?raw=true)
+
 
 
 ## 9. Forgatókönyvek
