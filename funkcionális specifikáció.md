@@ -9,13 +9,15 @@ ___
     hogy nem tartalmaz felesleges figyelem elterelő média tartalmat -ellenben a legtöbb oldallal-
     így egyből a lényegre tudunk összpontosítani fölösleges és bonyolult menü sorok nélkül.
 
+
 ## 2. Vágyállomrendszer leírása
        Csapatunk egy olyan program írására határozta el magát, amely egy jól megtervezett,
     bőségesen dokumentált, funkcionális weboldal, egy reszponzív felületen,
     robusztus adatbázissal, különböző biztonsági hibákkal szemben védett, önműködő
     kép letöltéssel, a jövőben különböző szociális médiákra történő integrált
     megosztást támogatva. Az oldalon napi frissítéssel egy kép lesz látható így
-    ösztönözve a felhasználót arra, hogy napi rendszerességgel visszatérjen.s
+    ösztönözve a felhasználót arra, hogy napi rendszerességgel visszatérjen.
+
 
 ## 3. Jelenlegi üzleti folyamatok modellje
         A mai világban mindenhol hirdetésekbe botlunk, amennyiben ingyen szeretnénk
@@ -27,68 +29,74 @@ ___
     az oldal célja, hogy egy adott fotóra bárki kényelmesen, gyorsan
     és megkötések nélkül tudjon reagálni.
 
+
 ## 4. Igényelt üzleti folyamatok modellje
 
 ![Untitled Diagram](https://github.com/rokobata510/space/blob/main/pics/Untitled%20Diagram.jpg?raw=true)
-     
+  
+  
 ## 5. Követelménylista
-
 | Id | Modul | Név | Leírás |    |
 | :---: | --- | --- | --- | --- |
 | K1 | Felület | Főoldal | A felhasználó itt tud hozzászólást írni. | |
 | K2 | Felület | Főoldal | Itt jelenik meg a napi kép. |                                         |
 | K3 | Adatbázis | Adat tárolás | A hozzászólások szövege itt tárolódik a képpel együtt. |       |
 | K4 | Kód  | HTML                |  CSS                         |  PHP                          |
-|    |     | az oldal vázát adja | az oldal kinézetéért felelős | a funkciók műkodéséért felel  |
+|    |     | az oldal vázát adja | az oldal kinézetéért felelős | a funkciók működéséért felel  |
+
 
 ## 6. Használati esetek
-    - az oldalra látogatóknak lehetőséget adunk hozzászólás írásra így
+    - az oldalra látogatóknak lehetőséget adunk hozzászólásírásra így
         kreativitásuknak semmi sem szabva határt lehetőségük van
         véleményük szabad kifejtésére igényes keretek között
-    - a kép megtegintése és vizuális felfogása
+    - a kép megtekintése és vizuális felfogása
 
-## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
-    1. A felhasználót az oldal megnyitása után egy letisztust oldallal találják
+
+## 7. Megfeleltetés, hogyan fedik le a használati eseteket, a követelményeket
+    1. A felhasználót az oldal megnyitása után egy letisztult oldallal találják
         szemben magukat mely jobb oldalán egy hozzászólás fal található. Bal
         oldalon pedig az aktuális kép tekinthető meg.
     2. Az üzenő falon lehet olvasni más felhasználók megnyilvánulásait és
-        lehetőség van komment írására is.
+        lehetőség van hozzászólás írására is.
     3. A képpel interaktálni nem lehet csupán megtekinteni azt.
+    
     
 ## 8. Képernyőtervek
     Terveink szerint az oldalon látható lesz a kép igényes keretek között és egy
-    komment sor ahol az az napi képre tudnak a felhasználók reagálni.
+    megnyilvánulások sor ahol a napi képre tudnak a felhasználók reagálni.
     
     Kinézet terv:
    ![kép](https://user-images.githubusercontent.com/114166697/195412573-3f7f6ba4-c623-4824-829d-97e6ee23b59b.png)
 
 
 ## 9. Forgatókönyvek
-    - Az oldal megnyitása során egyből a kép és a komment sor fogadja a felhasználót. 
-    - Az oldal jobb oldalán látható kommentsor közé a felhasználó is tud kommentet írni.
+    - Az oldal megnyitása során egyből a kép és a hozzászólás panel fogadja a felhasználót. 
+    - Az oldal jobb oldalán látható hozzászólás panel közé a felhasználó is tud véleményt írni.
       Valamint egy megkülönböztető felhasználó nevet szintén tud magának beírni
-      ami alatt később a kommentje is olvasható lesz.
+      ami alatt később a hozzászólása is olvasható lesz.
     - A felhasználó által látható elemek:
         Szövegdobozok.
             - felhasználónév
             - hozzászólás panel
         Küldés gomb.
             - beküldi a megfogalmazott
-                hosszászólást
+                hozzászólást
         Képkeret benne a kép
+
 
 ## 10. Funkció - követelmény megfeleltetése
   | Id | Követelmény | Funkció |
   | :---: | --- | --- |
-  | K1 | Felhasználó név láthatósága | Kommentek közötti különbségtétel |
+  | K1 | Felhasználó név láthatósága | Hozzászólások közötti különbségtétel |
   | K2 | Napi új kép | Minden nap új fotó láthatósága |
-  | K3 | Komment írás | Mindenki el tudja olvasni a napi képre írt gondolataid |
+  | K3 | Hozzászólásírás | Mindenki el tudja olvasni a napi képre írt gondolataid |
   | K4 | Igényes kinézet | A könnyebb átláthatóság és tájékozódás az oldalon |
   | K5 | Gyors | Gyors betöltés és kezelés |
   | K6 | Sokszínű használat | Rengeteg lehetőséget rejt magában az oldal |
 
+
 ## 11 Fogalomszótár
-    - WEBOLDAL:  jelen helyzetben egy felület melyen kommunikációra
+    - WEBOLDAL: jelen helyzetben egy felület melyen kommunikációra
                  van lehetőség egy kép kapcsán.
     - HASZNÁLAT: a felhasználó megtekinti a humoros vagy szürreális fotót
                  majd kifejti gondolatait a fotóra adott reakciója alapján.
