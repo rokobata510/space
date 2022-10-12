@@ -32,7 +32,8 @@
     és megkötések nélkül tudjon reagálni.
   
 ## 5. Igényelt üzleti folyamatok modellje
-    ![image](https://user-images.githubusercontent.com/103049657/195432784-a7dc71ff-e8a4-43f0-90f0-ecec890211aa.png)
+    
+![Untitled Diagram](https://user-images.githubusercontent.com/103049657/195434151-a9561ed3-3c02-471d-ae34-b77d9d497011.jpg)
 
   
 ## 6. Követelménylista
