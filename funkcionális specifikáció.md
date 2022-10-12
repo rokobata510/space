@@ -42,20 +42,24 @@ ___
 |    |     | az oldal vázát adja | az oldal kinézetéért felelős | a funkciók műkodéséért felel  |
 
 ## 6. Használati esetek
-    - az oldalra látogatók 
-    
-    
-    
+    - az oldalra látogatóknak lehetőséget adunk hozzászólás írásra így
+        kreativitásuknak semmi sem szabva határt lehetőségük van
+        véleményük szabad kifejtésére igényes keretek között
+    - a kép megtegintése és vizuális felfogása
 
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
-    A felhasználóknak lehetőségük adódik a napi kép alá kommentelni, amit az adatbázis tárol,
-    illetve a naponta frissülő képek igényesen jelennek meg a felhasználóknak a HTML,
-    CSS és PHP kódok segítségével. Így a használati eseteket lefedik az oldalra vonatkozó követelmények.
-
+    1. A felhasználót az oldal megnyitása után egy letisztust oldallal találják
+        szemben magukat mely jobb oldalán egy hozzászólás fal található. Bal
+        oldalon pedig az aktuális kép tekinthető meg.
+    2. Az üzenő falon lehet olvasni más felhasználók megnyilvánulásait és
+        lehetőség van komment írására is.
+    3. A képpel interaktálni nem lehet csupán megtekinteni azt.
+    
 ## 8. Képernyőtervek
-    Terveink szerint az oldalon látható lesz a vicces kép igényes keretek között és egy
+    Terveink szerint az oldalon látható lesz a kép igényes keretek között és egy
     komment sor ahol az az napi képre tudnak a felhasználók reagálni.
-
+    
+    Kinézet terv:
    ![kép](https://user-images.githubusercontent.com/114166697/195412573-3f7f6ba4-c623-4824-829d-97e6ee23b59b.png)
 
 
@@ -64,6 +68,14 @@ ___
     - Az oldal jobb oldalán látható kommentsor közé a felhasználó is tud kommentet írni.
       Valamint egy megkülönböztető felhasználó nevet szintén tud magának beírni
       ami alatt később a kommentje is olvasható lesz.
+    - A felhasználó által látható elemek:
+        Szövegdobozok.
+            - felhasználónév
+            - hozzászólás panel
+        Küldés gomb.
+            - beküldi a megfogalmazott
+                hosszászólást
+        Képkeret benne a kép
 
 ## 10. Funkció - követelmény megfeleltetése
   | Id | Követelmény | Funkció |
@@ -72,6 +84,8 @@ ___
   | K2 | Napi új kép | Minden nap új fotó láthatósága |
   | K3 | Komment írás | Mindenki el tudja olvasni a napi képre írt gondolataid |
   | K4 | Igényes kinézet | A könnyebb átláthatóság és tájékozódás az oldalon |
+  | K5 | Gyors | Gyors betöltés és kezelés |
+  | K6 | Sokszínű használat | Rengeteg lehetőséget rejt magában az oldal |
 
 ## 11 Fogalomszótár
     - WEBOLDAL:  jelen helyzetben egy felület melyen kommunikációra
