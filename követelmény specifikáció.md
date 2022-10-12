@@ -11,9 +11,12 @@
     képes weboldalt létrehozni számukra.
   
 ## 3. Vágyálomrendszer
-    Jól megtervezett, bőségesen dokumentált, funkcionális weboldal, egy
-    reszponzív felületen, robusztus adatbázissal, különböző biztonsági hibákkal szemben védett,
-    automatikus kép letöltéssel, a jövőben különböző szociális médiákra történő integrált megosztást támogatva.
+    Csapatunk egy olyan program írására határozta el magát, amely egy jól megtervezett,
+    bőségesen dokumentált, funkcionális weboldal, egy reszponzív felületen,
+    robusztus adatbázissal, különböző biztonsági hibákkal szemben védett, önműködő
+    kép letöltéssel, a jövőben különböző szociális médiákra történő integrált
+    megosztást támogatva. Az oldalon napi frissítéssel egy kép lesz látható így
+    ösztönözve a felhasználót arra, hogy napi rendszerességgel visszatérjen.s
 
 ## 4. Jelenlegi üzleti folyamatok modellje
     Az emberek gyors és vicces kikapcsolódása a célunk. Gyors,
