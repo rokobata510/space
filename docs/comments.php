@@ -1,10 +1,9 @@
-<div class="col">
-    <div class="detailBox">
-        <div class="titleBox">
-            <label>Commentek</label>
+<div class="col detailBox rounded">
+        <div class="titleBox rounded">
+            <label> Hozzászólások a mai képhez</label>
         </div>
             <div class="actionBox">
-                <ul class="commentList">
+                <ul class="commentList rounded">
                 <?php 
                 $sql = "SELECT Username, Comment from comments where Date = CAST(now() AS Date )";
                 $result = $conn->query($sql);
@@ -13,12 +12,9 @@
                     echo 
                     '
                     <li>
-                        <div class="commenterImage">
-                            <img src="http://placekitten.com/50/50"/>
-                            </div>
                         <div class="commentText align-text-bottom">
                             <b>'.$row["Username"].'</b>
-                            <p class="">'.$row["Comment"].'</p> 
+                            <p class="commentText">'.$row["Comment"].'</p> 
                         </div>
                     </li>
                     ';
@@ -30,10 +26,10 @@
             ?>
             
                 </ul>
-                <form class="form-inline" role="form" method="POST" onsubmit="setTimeout(function(){window.location.reload();},10);">
-                    <div class="form-group">
-                        <input class="form-control" type="text" placeholder="Username" name="username"/>
-                        <input class="form-control" type="text" placeholder="Comment" name="comment"/>
+                <form class="form-inline w-100" role="form" method="POST" onsubmit="setTimeout(function(){window.location.reload();},10);">
+                    <div class="form-group w-100 ">
+                        <input class="form-control w-100" type="text" placeholder="Username" name="username" >
+                        <input class="form-control w-100" type="text" placeholder="Comment" name="comment" >
                         <?php
                         if(isset($_POST["elkuld"]))
                         {
@@ -53,8 +49,9 @@
                         } 
                             $conn->close();                            
                         ?>
-                        <input type="submit" name="elkuld">
-                    
+                        <div class="pt-2">
+                        <input type="submit" name="elkuld" class="form-control w-100 ">
+                        </div>
                     </div>
                     
                 </form>
