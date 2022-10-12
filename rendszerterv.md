@@ -1,7 +1,7 @@
 # Rendszerterv
 ---
 ## 1. A rendszer célja
-    A rendszer célja, hogy az oldalra ellátogató felhasználóknak lehetőséget
+        A rendszer célja, hogy az oldalra ellátogató felhasználóknak lehetőséget
     adjunk egy egységes napi képre való véleményadássta és kommunikációs kapcsolatok
     kialakítására a saját gondolatmenet leírásának opciójával. A képeket
     különféle kutatási és filozófiai mélységgel kerestük meg, hogy a megtekintői
@@ -9,8 +9,9 @@
     és varázsát. Egyszerre tükröz eleganciát és humort. Stílusával görbe tükröt
     mutat saját magának valamint a világnak.
     
+    
 ## 2. Projektterv
-    A projekt során egyaránt figyelünk a frontend és a backend igényes felhasználóbarát
+        A projekt során egyaránt figyelünk a frontend és a backend igényes felhasználóbarát
     kialakítására. A feladatokat elosztottuk egymást között, de mindenki részt
     vett bizonyos szinten minden fejlesztési szakaszban valamint segítünk a másiknak és a
     végeredményt együtt leellenőrizzük. Fejlesztésre HTML-t, CSS-t és PHP-t használunk a
@@ -27,7 +28,8 @@
     Tesztelés:
     - célja: az apró hibák észrevétele és jelentése a backend/frontend fejlesztők felé
     
-## Projektszerepkörök, felelőségek:
+    
+### 2.1 Projektszerepkörök, felelőségek:
     Scrum masters:
         Takács Róbert
     Product owner:
@@ -35,7 +37,8 @@
     Üzleti szereplő:
         Takács Róbert
      
-## Projektmunkások és felelőségek:
+     
+### 2.2 Projektmunkások és felelőségek:
     Frontend:
         elsődleges: Petrovics Tímea
         másodlagos: Rokob Attila Adrián
@@ -49,11 +52,11 @@
         másodlagos: Petrovics Tímea
         harmadlagos:Rokob Attila Adrián
      
-## Ütemterv:
-
+     
+### 2.3 Ütemterv:
 |Funkció                  | Feladat                                | Prioritás | Becslés (nap) | Aktuális becslés (nap) | Eltelt idő (nap) | Becsült idő (nap) |
 |-------------------------|----------------------------------------|-----------|---------------|------------------------|------------------|---------------------|
-|Követelmény specifikáció |Megírás                                 |         2 |             2 |                      2 |                2 |                   2 |             
+|Követelmény specifikáció |Megírás                                 |         1 |             1 |                      1 |                1 |                   2 |             
 |Funkcionális specifikáció|Megírás                                 |         1 |             1 |                      1 |                1 |                   1 |
 |Rendszerterv             |Megírás                                 |         1 |             1 |                      1 |                1 |                   1 |
 |Program                  |Képernyőtervek elkészítése              |         3 |             3 |                      3 |                3 |                   3 |
@@ -61,15 +64,48 @@
 |Program                  |Alapfunkciók elkészítése                |         3 |             8 |                      8 |                7 |                   7 |
 |Program                  |Tesztelés                               |         4 |             2 |                      3 |                3 |                   2 |
 
+
 ### 2.4 Mérföldkövek:
+    09. 27. megszületett az oldal célja
     09.29. elkészült a frontend vázlata
     10.06. befejeztük a dokumentációkat
     10.01. az első működő vázlat elkészülte
+    10.02. elkezdtük a kulalak kidolgozását
+    10.07. végső tesztelések megkezdése
+    10.10. utolsó javítások a dokumentációban 
+    10.12. végleges változat elkészülte
+    
 
 ## 3. Üzleti folyamatok modellje
-    Az emberek gyors és vicces kikapcsolódása a célunk. Gyors,
+        Az emberek gyors és vicces kikapcsolódása a célunk. Gyors,
     mert internet és okos eszköz fejében bárhol és bármikor elérhető. 
     Vicces, mert a napi kép mindenképp humoros témában lesz.
+    
+   ### 3.1 Üzleti szereplők
+        Az oldal bármely böngészőn keresztül regisztráció nélkül megtekinthető
+    é
+A rendszer regisztrálás nélkül használható. Akármelyik felhasználó, akinek
+az eszközén megtalálható a szoftver mindenféle korlátozás nélkül használhatja.
+Annak eldöntése, hogy a szoftvert kinek az eszközére települ és ki használhatja
+azt a megrendelő vállalat döntésére van bízva.
+
+### 3.2 Üzleti folyamatok
+
+A felhasználó a szoftver elindítása után kedve használhatja a titkosítást és visszafejtést,
+kiválaszthatja, hogy ha szövegből szeretne olvasni vagy írni,
+valamint a szoftver korlátozásain belül testre szabhatja a beállításokat is.
+A beállításokon belül kiválaszthatja a használni kívánt titkosítást és annak
+bonyolultságát is.
+
+* **Fájl kiválasztása:** A felhasználó ezen menüpont segítségével kiválaszthatja
+a beolvasni kívánt fájlt.
+* **Művelet indítása:** Ezen funkció használatával titkosításkor a szoftver elvégzi a titkosítást
+és az felhasználó által kívánt módon vagy a szövegdobozban, vagy pedig külön fájlban
+megjeleníti azt.
+* **Beállítások:** A funkción keresztül elérheti a felhasználó
+a szoftver beállításait.
+    
+    
 ## 4. Követelmények
     Létrehozásához HTML, CSS és PHP-t használunk. A kinézet és az oldal
     vázát a CSS és HTML kódok adják míg a funkciók a PHP kódok segítségével fognak működni.
