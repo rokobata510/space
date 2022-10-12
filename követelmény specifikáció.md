@@ -1,11 +1,16 @@
 # Követelmény specifikáció
-
+____
 ## 1. Áttekintés
-    Egy könnyedén átláthaó, egyszerű, szórakozási célra
-    készített felület. A felhasználók részéről pedig könnyen kezelhető és megérthető. 
+    A space nevet viselő csapatunk azzal lett megbízva, hogy tervezzen egy olyan
+    könnyedén átlátható, egyszerű, szórakozási célra szánt oldalt, amelyen napi
+    változatossággal jelenik meg egy kép melyre az oldalra ellátogatók reagálni tudnak
+    komment formátumban, regisztráció hiányában is. A felhasználók részéről a célja, 
+    hogy könnyen kezelhető és átlátható egységes felület gyorsan bármilyen
+    eszközről elérhető legyen. 
+    
   
 ## 2. A jelenlegi helyzet leírása
-    A 21. században rengeteg weboldal található, amiknek célja az emberek szórakoztatása. Mégis
+       A 21. században rengeteg weboldal található, amiknek célja az emberek szórakoztatása. Mégis
     csapatunk úgy gondolta, hogy a mai fiataloknak még több ilyen oldalra van szüksége. A humort
     központban tartó oldalunkon a kommunikáció és a vizualitás is egyaránt fontos tényező. Interaktív
     visszajelzési lehetőségek nyújtása segít a felhasználónak a kapcsolatépítésben és 
@@ -14,15 +19,15 @@
     így egyből a lényegre tudunk összpontosítani fölösleges és bonyolult menü sorok nélkül.
   
 ## 3. Vágyálomrendszer
-    Csapatunk egy olyan program írására határozta el magát, amely egy jól megtervezett,
+       Csapatunk egy olyan program írására határozta el magát, amely egy jól megtervezett,
     bőségesen dokumentált, funkcionális weboldal, egy reszponzív felületen,
     robusztus adatbázissal, különböző biztonsági hibákkal szemben védett, önműködő
     kép letöltéssel, a jövőben különböző szociális médiákra történő integrált
     megosztást támogatva. Az oldalon napi frissítéssel egy kép lesz látható így
-    ösztönözve a felhasználót arra, hogy napi rendszerességgel visszatérjen.s
+    ösztönözve a felhasználót arra, hogy napi rendszerességgel visszatérjen.
 
 ## 4. Jelenlegi üzleti folyamatok modellje
-    A mai világban mindenhol hirdetésekbe botlunk, amennyiben ingyen szeretnénk
+        A mai világban mindenhol hirdetésekbe botlunk, amennyiben ingyen szeretnénk
     böngészni az interneten. Ez sok felesleges külső lényegtelen ingerhatással valamint
     információval jár. Célunk, hogy amennyiben csupán pár perces kikapcsolódásra
     lenne szükségünk azt a sok hirdetés és felesleges tájékoztatás befogadása nélkül
@@ -37,11 +42,13 @@
 
   
 ## 6. Követelménylista
-    Létrehozásához HTML, CSS és PHP-t használunk. A kinézet és az oldal
-    vázát a CSS és HTML kódok adják míg a funkciók a PHP kódok segítségével fognak működni.
-    Továbbá adatbázist és Bootstrap  is alkalmazunk az oldalon.
-
-    A felhasználónak csupán egy webböngészőre van szüksége az oldal megtekintéshez.
+| Id | Modul | Név | Leírás |    |
+| :---: | --- | --- | --- | --- |
+| K1 | Felület | Főoldal | A felhasználó itt tud hozzászólást írni. |                            |
+| K2 | Felület | Főoldal | Itt jelenik meg a napi kép. |                                         |
+| K3 | Adatbázis | Adat tárolás | A hozzászólások szövege itt tárolódik a képpel együtt. |       |
+| K4 | Kód  | HTML                |  CSS                         |  PHP                          |
+|    |     | az oldal vázát adja | az oldal kinézetéért felelős | a funkciók működéséért felel  |
 
 ## 7. Fogalomtár
     - WEBOLDAL:  jelen helyzetben egy felület melyen kommunikációra
