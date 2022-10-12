@@ -24,7 +24,7 @@
                     ';
                     }
                 } else {
-                    echo "0 results";
+                    echo "Ma még nem szólt a képhez senki";
                 }  
                 
             ?>

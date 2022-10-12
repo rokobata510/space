@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2022. Okt 07. 17:38
+-- Létrehozás ideje: 2022. Okt 12. 21:18
 -- Kiszolgáló verziója: 10.4.24-MariaDB
 -- PHP verzió: 7.4.29
 
@@ -39,7 +39,7 @@ CREATE TABLE `comments` (
 --
 
 INSERT INTO `comments` (`ID`, `Username`, `Comment`, `Date`) VALUES
-(1, 'TestUSer:3', 'Ez egyértelműen egy kép', '2022-10-06'),
+(1, 'TestUSer:3', 'Ez egyértelműen egy kép', '2022-10-12'),
 (2, 'TestUSer:3', 'ez egy kép <3', '2022-10-06'),
 (3, '', '', '0000-00-00'),
 (4, 'ooer', 'is kép', '2022-10-06'),
@@ -70,7 +70,9 @@ CREATE TABLE `image` (
 --
 
 INSERT INTO `image` (`ID`, `ImageUrl`, `Displaydate`) VALUES
-(1, 'https://media.tenor.com/g5ZphcWaj1MAAAAC/dancing-duck-vibing-duck.gif', '2022-10-06');
+(1, 'https://media.tenor.com/g5ZphcWaj1MAAAAC/dancing-duck-vibing-duck.gif', '2022-10-11'),
+(2, 'https://i.pinimg.com/originals/fd/ef/ef/fdefef6d1cc46798b70293001ec727e8.jpg', '2022-10-13'),
+(4, 'https://i.kym-cdn.com/photos/images/newsfeed/000/097/082/1296769208603.jpg', '2022-10-12');
 
 --
 -- Indexek a kiírt táblákhoz
@@ -102,7 +104,7 @@ ALTER TABLE `comments`
 -- AUTO_INCREMENT a táblához `image`
 --
 ALTER TABLE `image`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

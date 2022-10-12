@@ -11,7 +11,7 @@
                     ';
                     }
                 } else {
-                    echo "0 results";
+                    echo "A készítők mára még nem töltöttek fel képet (de még így is hozzá tudsz szólni";
                 }
                     
             ?>
