@@ -5,10 +5,13 @@
     készített felület. A felhasználók részéről pedig könnyen kezelhető és megérthető. 
   
 ## 2. A jelenlegi helyzet leírása
-    Csapatunk úgy gondolta, hogy a mai fiataloknak
-    több szórakozásra van szüksége. Ehhez szeretnénk nekik biztosítani
-    egy oldalt, ahol szórakozhatnak egymással. Ezért szeretnénk egy véletlenszerű,
-    képes weboldalt létrehozni számukra.
+    A 21. században rengeteg weboldal található, amiknek célja az emberek szórakoztatása. Mégis
+    csapatunk úgy gondolta, hogy a mai fiataloknak még több ilyen oldalra van szüksége. A humort
+    központban tartó oldalunkon a kommunikáció és a vizualitás is egyaránt fontos tényező. Interaktív
+    visszajelzési lehetőségek nyújtása segít a felhasználónak a kapcsolatépítésben és 
+    további lehetőség arra is, hogy együtt nevessenek a szürke hétköznapokban. Az oldal előnye,
+    hogy nem tartalmaz felesleges figyelem elterelő média tartalmat -ellenben a legtöbb oldallal-
+    így egyből a lényegre tudunk összpontosítani fölösleges és bonyolult menü sorok nélkül.
   
 ## 3. Vágyálomrendszer
     Csapatunk egy olyan program írására határozta el magát, amely egy jól megtervezett,
