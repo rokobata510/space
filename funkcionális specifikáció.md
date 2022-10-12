@@ -1,25 +1,38 @@
 # Funkcionális specifikáció
 ___
 ## 1. Jelenlegi helyzet leírása
-    Csapatunk úgy gondolta, hogy a mai fiataloknak több szórakozásra van szüksége. Ehhez
-    szeretnénk nekik biztosítnai egy oldalt, ahol szórakozhatnak egymással. Ezért szeretnénk egy humoros
-    képes weboldalt létrehozni számukra.
+        A 21. században rengeteg weboldal található, amiknek célja az emberek szórakoztatása. Mégis
+    csapatunk úgy gondolta, hogy a mai fiataloknak még több ilyen oldalra van szüksége. A humort
+    központban tartó oldalunkon a kommunikáció és a vizualitás is egyaránt fontos tényező. Interaktív
+    visszajelzési lehetőségek nyújtása segít a felhasználónak a kapcsolatépítésben és 
+    további lehetőség arra is, hogy együtt nevessenek a szürke hétköznapokban. Az oldal előnye,
+    hogy nem tartalmaz felesleges figyelem elterelő média tartalmat -ellenben a legtöbb oldallal-
+    így egyből a lényegre tudunk összpontosítani fölösleges és bonyolult menü sorok nélkül.
 
 ## 2. Vágyállomrendszer leírása
-    Jól megtervezett, bőségesen dokumentált, funkcionális weboldal, egy reszponzív felületen,
-    robusztus adatbázissal, különböző biztonsági hibákkal szemben védett, automatikus kép letöltéssel, a jövőben
-    különböző szociális médiákra történő integrált megosztást támogatva.
+       Csapatunk egy olyan program írására határozta el magát, amely egy jól megtervezett,
+    bőségesen dokumentált, funkcionális weboldal, egy reszponzív felületen,
+    robusztus adatbázissal, különböző biztonsági hibákkal szemben védett, önműködő
+    kép letöltéssel, a jövőben különböző szociális médiákra történő integrált
+    megosztást támogatva. Az oldalon napi frissítéssel egy kép lesz látható így
+    ösztönözve a felhasználót arra, hogy napi rendszerességgel visszatérjen.s
 
 ## 3. Jelenlegi üzleti folyamatok modellje
-    Amennyiben pár perces kikapcsolódásra lenne szüksége az embernek a szürke hétköznapokban
-    azt csupán sok reklám és felesleges információ befogadásával teheti meg. Ám oldalunk
-    nagy előnye, hogy sem regisztrációt sem reklámokat nem tartalmaz így egy adott fotóra
-    bárki kényelmesen, gyorsan és megkötések nélkül tud reagálni.
+        A mai világban mindenhol hirdetésekbe botlunk, amennyiben ingyen szeretnénk
+    böngészni az interneten. Ez sok felesleges külső lényegtelen ingerhatással valamint
+    információval jár. Célunk, hogy amennyiben csupán pár perces kikapcsolódásra
+    lenne szükségünk azt a sok hirdetés és felesleges tájékoztatás befogadása nélkül
+    tegye meg az felünkre ellátogató felhasználó. Mivel nem igényel regisztrációt,
+    hogy megtekintése bárki az oldalt így még letisztultabb és lényegre törőbb
+    az oldal célja, hogy egy adott fotóra bárki kényelmesen, gyorsan
+    és megkötések nélkül tudjon reagálni.
 
 ## 4. Igényelt üzleti folyamatok modellje
     Az emberek gyors és vicces kikapcsolódása a célunk. Gyors,
     mert internet és okos eszköz fejében bárhol és bármikor elérhető. Vicces,
     mert a napi kép mindenképp humoros témában lesz.
+    
+    
 
 ## 5. Követelménylista
 
