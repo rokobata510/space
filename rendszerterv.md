@@ -150,14 +150,17 @@
 
 
 ## 9. Adatbázis terv
-    Egy adatbázist használunk az oldalon amely a kép és a hozzászólások
-    táblát tartalmazza. Az adatok eltárolása végett.
+    Egy adatbázist használunk az oldalon amely
+    a kép és a hozzászólások táblát tartalmazza. Az adatok eltárolása végett.
+    [kép]
+    [kép]
 
 
 ## 10. Implementációs terv
-    - Egy PHP alapú
-    - mysql segítségével adatokat tároló oldal
-    - HTML/CSS vázú
+    - Egy PHP alapú oldal, 
+    - mysql segítségével adatokat tárol,
+    - HTML/CSS vázú,
+    - böngészőben megtekinthető,
 
 
 ## 11. Tesztterv
@@ -167,16 +170,36 @@
  | Komment | Az írt komment és név megjelenik és olvasható | 
  | Kép megjelenés | A kép látható és nem torz |
  | Frontend | A vizuális megjelenés szépen megtekinthető minden eszközön |
+ 
+    - továbbit lásd: Teszt.md
+
+        A tesztelések célja, hogy a kódba és a vizuális megjelenésbe vétett
+    hibákat észleljük és javítását mi hamarabb megkezdjük. A tesztelést minél
+    több ember végzi, hogy minél több hiba megtalálásra leljen.
+
+
+### A tesztelési jegyzőkönyv kitöltésére egy sablon:
+
+    **Tesztelő:** Vezetéknév Keresztnév
+
+    **Tesztelés dátuma:** Év.Hónap.Nap
+
+Tesztszám | Rövid leírás | Várt eredmény | Eredmény | Megjegyzés
+----------|--------------|---------------|----------|-----------
+például. #01 | Kép | A kép látható és napi szinten változik  | A kép változik | Nem találtam problémát.
+... | ... | ... | ... | ...
 
 
 ### A tesztelési stratégia
-    Csapatunk folyamatosan tesztel a fejlesztés során, hogy egy
+        Csapatunk folyamatosan tesztel a fejlesztés során, hogy egy
     apró hiba se hagyja el figyelmünket és tökéletes munkát adjunk
     ki a kezünkből melyre büszkék lehetünk.
     
     
 ## 12. Telepítési terv
-    A megtekintése nem igényel telepítést. Böngészőből futtatható.
+        A megtekintése nem igényel sem fizikai sem szoftveres
+    telepítést. Okos eszközről könnyedén futtatható
+    böngésző segítségével.
 
 
 ## 13. Karbantartási terv
