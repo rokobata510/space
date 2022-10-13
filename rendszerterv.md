@@ -99,7 +99,7 @@
     
     
 ## 4. Követelmények
-    Létrejöttéhez csapatunk HTML, CSS és PHP-t használt. A kinézetet és az oldal
+        Létrejöttéhez csapatunk HTML, CSS és PHP-t használt. A kinézetet és az oldal
     vázát a CSS és HTML kódok adják melyre sok figyelmet szenteltünk
     míg a funkciók működésében a PHP kódok nyújtottak segítséget. Továbbá
     adatbázisban tároljuk a fotókat és kommenteket. Ám a Bootstrap alkalmazását
