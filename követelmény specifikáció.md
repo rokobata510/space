@@ -66,4 +66,4 @@ ____
                  a tényleges számításokat végző része. Feladata a front‑end felől érkező adatok feldolgozása,
                  és az eredményeknek a front‑end felé történő visszajuttatása.
 
-
+ 
