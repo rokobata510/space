@@ -23,6 +23,4 @@
 | Teszt #06 | Kép fájl hozzászólásként.        | Nem szabad engednie ilyen formátumot.                 | Nem engedélyezi.                      | Helyesen működik.            |
 | Teszt #07 | Kép változás                     | A kép naponta változik                                | Megváltozott a kép                    | Helyesen működik.            |
 | Teszt #08 | Hozzászólás törlés               | A hozzászólások naponta törlődnek                     | Törlődtek a hozzászólások             | Helyesen működik.            |
-| Teszt #09 | Adatbázis adat tárolása #1       | A hozzászólások szövege tárolódik az adatbázisban     | Adat tárolás                          | Helyesen működik.            |
-| Teszt #10 | Adatbázis adat tárolása #2      | A képek nta törlődnek                     | Törlődtek a hozzászólások             | Helyesen működik.            |
-
+| Teszt #09 | Adatbázis adat tárolása          | A hozzászólások szövege tárolódik az adatbázisban     | Adat tárolás                          | Helyesen működik.            |
