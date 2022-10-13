@@ -56,7 +56,7 @@ ____
 
 ## 7. Fogalomtár
     - WEBOLDAL:  jelen helyzetben egy felület melyen kommunikációra
-                 van lehetőség egy kép kapcsán.
+                 van lehetőség egy kép kapcsán. 
     - HASZNÁLAT: a felhasználó megtekinti a humoros vagy szürreális fotót majd kifejti gondolatait a
                  fotóra adott reakciója alapján.
     - FRONT_END: a programoknak, weboldalaknak az a része, amelyik a
