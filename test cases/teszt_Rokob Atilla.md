@@ -9,7 +9,7 @@
 
   Tesztelő: Rokob Attila
 
-  Tesztelés dátuma: 2022.október.13.
+  Tesztelés dátuma: 2022.október.13. 
 
 ---
 
