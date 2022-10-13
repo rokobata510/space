@@ -180,6 +180,11 @@
 
 
 ## 13. Karbantartási terv
-    - folyamatos hibajavítás
-    - rendszeres képtár bővítés
-    - korszerűsített design változtatások
+    Fontos napi ellenőrzés:
+        - az oldal betölt hibátlanul
+        - a kép tökéletesen látható
+        - a komment fal működik
+    Alkalmankénti ellenőrzési terv:
+        - kód korszerűsítése
+        - rendszeres képtár bővítés
+        - korszerűsített design változtatások
