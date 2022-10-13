@@ -9,7 +9,7 @@
 
   Tesztelő: Szilágyi Debóra
 
-  Tesztelés dátuma: 2022.október.12.
+  Tesztelés dátuma: 2022.október.12. 
 
 ---
 
