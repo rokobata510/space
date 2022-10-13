@@ -149,11 +149,31 @@
     Futtatásához egy okos eszközre melyben fut a böngésző és internetre van szükségünk.
 
 
+### Webszerver
+        A program improtálás esetén nem igényel internet elérést így webszerver
+    néköl is megtekinthető, de késsőbbi fejlesztési tervek szerint viszont a fotók
+    a webszerver segítségével fognak változni.
+
+
+### Adatbázis rendszer
+        Egy adatbázist használunk az oldalon:
+           - a kép és a hozzászólások táblát tartalmazza.
+  
+ ![dasdasdadadsada.png](https://github.com/rokobata510/space/blob/main/pics/dasdasdadadsada.png?raw=true)
+
+
+### A program elérése, kezelése
+        A weblap böngésző feltétele melett megtekinthető. Internetes
+     link segítségével URL-en át(tervezett) ennek hiányába pedig
+     localhost-on keresztül látható a főoldal XAMPP
+     futtatásának feltétele melett.
+
+
 ## 9. Adatbázis terv
-    Egy adatbázist használunk az oldalon amely
-    a kép és a hozzászólások táblát tartalmazza. Az adatok eltárolása végett.
-    [kép]
-    [kép]
+    Egy adatbázist használunk az oldalon:
+        - a kép és a hozzászólások táblát tartalmazza.
+        
+ ![asdasdasdasd.png](https://github.com/rokobata510/space/blob/main/pics/asdasdasdasd.png?raw=true)
 
 
 ## 10. Implementációs terv
