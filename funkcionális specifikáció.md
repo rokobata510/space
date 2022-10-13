@@ -55,7 +55,7 @@ ___
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket, a követelményeket
     1. A felhasználót az oldal megnyitása után egy letisztult oldallal találják
         szemben magukat mely jobb oldalán egy hozzászólás fal található. Bal
-        oldalon pedig az aktuális kép tekinthető meg.
+        oldalon pedig az aktuális kép tekinthető meg. 
     2. Az üzenő falon lehet olvasni más felhasználók megnyilvánulásait és
         lehetőség van hozzászólás írására is.
     3. A képpel interaktálni nem lehet csupán megtekinteni azt.
