@@ -55,7 +55,7 @@ ___
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket, a követelményeket
     1. A felhasználót az oldal megnyitása után egy letisztult oldallal találják
         szemben magukat mely jobb oldalán egy hozzászólás fal található. Bal
-        oldalon pedig az aktuális kép tekinthető meg. 
+        oldalon pedig az aktuális kép tekinthető meg.
     2. Az üzenő falon lehet olvasni más felhasználók megnyilvánulásait és
         lehetőség van hozzászólás írására is.
     3. A képpel interaktálni nem lehet csupán megtekinteni azt.
@@ -65,17 +65,13 @@ ___
     Terveink szerint az oldalon látható lesz a kép igényes keretek között és egy
     megnyilvánulások sor ahol a napi képre tudnak a felhasználók reagálni.
    __________
-   ### Végleges kinézet terv:
+   Végleges kinézet terv:
    
-   ![tervasd.png](https://github.com/rokobata510/space/blob/main/pics/tervasd.png)
+   ![kép](https://user-images.githubusercontent.com/114166697/195412573-3f7f6ba4-c623-4824-829d-97e6ee23b59b.png)
    
-   __________
-   ### Jelenlegi kinézet:
-   
-   ![tesztasd.png](https://github.com/rokobata510/space/blob/main/pics/tesztasd.png)
    
    __________
-   ### Idéglenes kinézet terv:
+   Idéglenes kinézet terv:
    
   ![284927246_873243980751058_2161368785832703537_n](https://github.com/rokobata510/space/blob/main/pics/284927246_873243980751058_2161368785832703537_n.png?raw=true)
 
@@ -87,13 +83,13 @@ ___
       Valamint egy megkülönböztető felhasználó nevet szintén tud magának beírni
       ami alatt később a hozzászólása is olvasható lesz.
     - A felhasználó által látható elemek:
-        Szövegdobozok.
+        - Szövegdobozok.
             - felhasználónév
             - hozzászólás panel
-        Küldés gomb.
+        - Küldés gomb.
             - beküldi a megfogalmazott
                 hozzászólást
-        Képkeret benne a kép
+        - Képkeret benne a kép
 
 
 ## 10. Funkció - követelmény megfeleltetése
