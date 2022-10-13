@@ -3,7 +3,7 @@
  | Program futás               | Sikeres betöltés.           | 
  | Hozzászólás                 | Sikeres hozzászólás feltöltés. | 
  | Username megadás            | Sikeresen megadható.        | 
- | Kép megjelenítés            | Sikeres betöltés/Sikeres napi változás           |
+ | Kép megjelenítés            | Sikeres betöltés/Sikeres napi változás           | 
  | Nem megfelelő formátumú szöveg tiltása | Például kép formátumot nem lehet kommentbe helyezni  |
  
 
